@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>class 8</title>
+    </head>
+    <body>
+        <script>
+            let user= {
+                name: "Tino",
+                SayHello: function() {
+                    return `Hello, Im ${this.name}`;
+                    }
+            };
+            console.log(user.SayHello());
+
+            let skills= ["Wireframing", "Prototyping", "User Research"];
+            console.log(skills[0]); //Outputs: Wireframing
+
+            let comments = ["Great article!", "This helped a lot", "I disagree"];
+            for (let i = 0; i < comments.length; i++) {
+                console.log (comments[i]);
+            }
+          
+        </script>
+        
+    </body>
+</html>
